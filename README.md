@@ -1,8 +1,8 @@
 # tic_tac_toe
 A two player tic_tac_toe game
-This is a two player game , which is built in python
 import numpy as np
 import sys
+
 class players:
     def __init__(self,name,key):
         self.name = name
@@ -10,7 +10,6 @@ class players:
 def Board():
     board = np.arange(1,10).reshape(3,3).astype(str)
     return board
-
 
 
 
